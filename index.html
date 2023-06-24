@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New year countdown</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f293a21338.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="year" class="year">2021</div>
+    
+   <div class="main p-5 text-center ">
+     <div class="head">
+         <h1 class="head" style="color: #ffffff;font-size: 250%;font-family:sans-serif;letter-spacing: 0.1px;font-weight: bolder">NEW YEAR COUNTDOWN</h1></div>
+    <div class="countdown  row p-1 text-light " id="countdown">
+   <div class="time col-3 ">
+       <h2 id="days">00</h2><small>Days</small>
+      </div>
+        <div class="time col-3">
+       <h2 id="hours">00</h2><small>Hours</small>
+      </div>
+        <div class="time col-3">
+       <h2 id="minutes">00</h2><small>Minutes</small>
+      </div>
+        <div class="time col-3">
+       <h2 id="seconds">00</h2><small>Seconds</small>
+      </div>
+        </div>
+    </div>
+    <img
+      src="spinner.gif"
+      alt="Loading..."
+      id="loading"
+      class="loading"
+    />
+
+    <script src="script.js"></script>
+</body>
+</html>
